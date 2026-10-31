@@ -1,17 +1,43 @@
-# React + Vite
+Cynbit Careers Portal
+A modern, responsive career openings portal built with React and Vite, featuring a clean architectural aesthetic, dual-grid role layouts, robust multi-field live search, location filtering, and dedicated application modals.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features
+Multi-Field Live Search: Real-time query matching across job titles, teams/categories, required skills, and descriptions with case-insensitive tokenization (e.g., searching ui ux matches UI/UX Design Intern).
 
-Currently, two official plugins are available:
+Location Filter: Granular toggle/filter by work arrangement and office locations (Remote, Jaipur, or all).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Responsive 2-Column Grid: Clean layout adhering strictly to a dual-card row rhythm across desktop and tablet screens.
 
-## React Compiler
+Dynamic Feedback & Counts: Real-time result counter and a dedicated empty state with query suggestions when no roles match.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Role Details Modal: Interactive modal popup per position displaying extended requirements and a pre-configured mailto: application link.
 
-## Expanding the Oxlint configuration
+Zero Heavy Dependencies: High-performance inline styles and lightweight vanilla React hooks (useState, useMemo).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# CynbitProject
+Tech Stack
+Framework: React 18+
+
+Build Tool: Vite
+
+Styling: Modular CSS / React Inline Design System
+
+Getting Started
+Prerequisites
+Ensure you have Node.js (v16.0 or higher) and npm installed on your machine.
+
+Installation & Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/cynbit_careerpage.git
+cd cynbit_careerpage
+Install project dependencies:
+
+Bash
+npm install
+Start the development server:
+
+Bash
+npm run dev
+View in browser:
+Open http://localhost:5175/ (or the specific port assigned by your Vite CLI).
